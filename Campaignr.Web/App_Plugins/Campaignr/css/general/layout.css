@@ -1,0 +1,78 @@
+﻿.camman-admin h1,
+.camman-admin h2,
+.camman-admin h3,
+.camman-admin h4,
+.camman-admin h5,
+.camman-admin h6,
+.camman-admin p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.camman-admin .fake-link{
+    cursor: pointer;
+}
+
+.camman-admin select {
+    width: auto;
+    background: none;
+    border: none;
+    text-align: right;
+    /* line-height: 16px; */
+    height: 30px;
+    padding-top: 6px;
+    margin-top: 7px;
+    font-weight: 700;
+}
+
+.camman-admin input.search-box {
+    float: right;
+}
+
+/* Table Stylings */
+.camman-admin .umb-table-head {
+    background: #1b264f;
+    color: #fff;
+}
+
+.camman-admin .umb-table-cell.status {
+    font-weight: 700;
+}
+
+.stat-pod {
+    text-align: center;
+}
+
+    .stat-pod .umb-box-content {
+        padding: 40px;
+    }
+
+    .stat-pod p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .stat-pod span {
+        font-size: 80px;
+        display: block;
+        line-height: 80px;
+    }
+
+    .stat-pod.theme-blue span {
+        color: #255CAD;
+    }
+
+    .stat-pod.theme-green span {
+        color: #41D797;
+    }
+
+    .stat-pod.theme-brown span {
+        color: #A78B62;
+    }
+
+    .stat-pod.theme-pink span {
+        color: #F5C1BC;
+    }
+
+.settingsForm .controls.controls-row {
+    margin-top: -25px;
+}

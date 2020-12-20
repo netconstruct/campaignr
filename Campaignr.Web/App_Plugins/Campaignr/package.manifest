@@ -1,0 +1,79 @@
+﻿{
+    // Stylesheets
+    "css": [
+        "~/App_Plugins/Campaignr/css/contacts/section.css",
+        "~/App_Plugins/Campaignr/css/general/icons.css",
+        "~/App_Plugins/Campaignr/css/general/layout.css"
+    ],
+    // JavaScript Files
+    "javascript": [
+        // Controllers
+        "~/App_Plugins/Campaignr/js/campaigns/cm.campaigns.controller.js",
+        "~/App_Plugins/Campaignr/js/contacts/cm.contacts.controller.js",
+        "~/App_Plugins/Campaignr/js/dashboard/cm.dashboard.controller.js",
+        "~/App_Plugins/Campaignr/js/settings/cm.settings.controller.js",
+        //Resources
+        "~/App_Plugins/Campaignr/js/campaigns/cm.campaigns.resource.js",
+        "~/App_Plugins/Campaignr/js/contacts/cm.contacts.resource.js",
+        "~/App_Plugins/Campaignr/js/lists/cm.lists.resource.js",
+        "~/App_Plugins/Campaignr/js/general/cm.general.resources.js",
+        "~/App_Plugins/Campaignr/js/settings/cm.settings.resource.js",
+        "~/App_Plugins/Campaignr/js/dashboard/cm.dashboard.resource.js"
+    ],
+    // Sections
+    "sections": [
+        {
+            "alias": "campaignr",
+            "name": "Campaignr",
+            "weight": "2"
+        }
+    ],
+    // Dashboards
+    "dashboards": [
+        {
+            "alias": "dashboard",
+            "view": "~/app_plugins/Campaignr/views/dashboard/index.html",
+            "sections": [ "campaignr" ],
+            "weight": 0,
+            "access": [
+                { "grant": "editor" },
+                { "grant": "writer" },
+                { "grant": "translator" },
+                { "grant": "admin" }
+            ]
+        },
+        {
+            "alias": "campaigns",
+            "view": "~/App_Plugins/Campaignr/views/campaigns/index.html",
+            "sections": [ "campaignr" ],
+            "weight": 10,
+            "access": [
+                { "grant": "editor" },
+                { "grant": "writer" },
+                { "grant": "translator" },
+                { "grant": "admin" }
+            ]
+        },
+        {
+            "alias": "contacts",
+            "view": "~/app_plugins/Campaignr/views/contacts/index.html",
+            "sections": [ "campaignr" ],
+            "weight": 20,
+            "access": [
+                { "grant": "editor" },
+                { "grant": "writer" },
+                { "grant": "translator" },
+                { "grant": "admin" }
+            ]
+        },
+        {
+            "alias": "settings",
+            "view": "~/app_plugins/Campaignr/views/settings/index.html",
+            "sections": [ "campaignr" ],
+            "weight": 100,
+            "access": [
+                { "grant": "admin" }
+            ]
+        }
+    ]
+}

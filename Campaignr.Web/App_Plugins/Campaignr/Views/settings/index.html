@@ -1,0 +1,34 @@
+﻿<div id="campaignAdmin" ng-controller="Umbraco.Dashboard.cmSettingsController as vm" class="camman-admin">
+    <umb-load-indicator ng-show="vm.loading"></umb-load-indicator>
+
+    <!-- Edit Settings -->
+    <div ng-show="!vm.loading" class="settingsForm">
+        <umb-box>
+            <umb-box-content>
+                <div id="settingsForm">
+                    <umb-control-group label="Campaign Manager">
+                        <select type="text" id="txtName" ng-model="vm.name" required>
+                            <option value="">None</option>
+                            <option ng-repeat="x in vm.apiNames">{{x}}</option>
+                        </select>
+                    </umb-control-group>
+                    <umb-control-group label="Api Username">
+                        <input type="text" id="txtApiKey" ng-model="vm.username" required />
+                    </umb-control-group>
+                    <umb-control-group label="Api Password">
+                        <input type="text" id="txtApiSecret" ng-model="vm.password" required />
+                    </umb-control-group>
+
+                    <umb-control-group>
+                        <umb-button type="button"
+                                    button-style="primary"
+                                    label="Save Settings"
+                                    action="vm.saveSettings()">
+                            Save Settings
+                        </umb-button>
+                    </umb-control-group>
+                </div>
+            </umb-box-content>
+        </umb-box>
+    </div>
+</div>

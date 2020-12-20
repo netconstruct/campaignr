@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <info>
+    <package>
+      <name>NetC.Campaignr</name>
+      <version>1.0.0</version>
+      <license url="https://opensource.org/licenses/MIT">MIT License 2.0</license>
+      <url>https://github.com/netconstruct/campaignr</url>
+      <iconUrl>https://www.netconstruct.com/icons/icon-144x144.png</iconUrl>
+      <requirements type="Strict">
+        <major>1</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>NetConstruct</name>
+      <website>https://netconstruct.com</website>
+    </author>
+    <readme>
+      <![CDATA[
+      <h1>Campaignr</h1>
+      <p><strong>View your Campaigns from your EMS system in your Umbraco Application.</strong></p>
+
+      <p>Campaignr allows you to connect to your external Email Marketing System from the Umbraco system and see the statistics on it's success.</p>
+
+      <p>The Dashboard will show you an overview of your account, showing overall rates and subscribers.<br/>
+      The Campaigns Section will let you see individual Campaigns and their success rates.<br/>
+      Contacts will show you all your Subscribers and Subscriber Groups as well as remove any that need unsubscribing.</p>
+
+      <h2>Installation</h2>
+      <p>Install the Package either from NuGet or from your Umbraco Site, by searching for NetC.Campaignr.<br/>
+        Be sure to Rebuild the Solution after installation.</p>
+
+      <h2>Set Up</h2>
+      <ul>
+        <li>You will need to add in Campaignr to the Allowed Sections for the required User Groups</li>
+        <li>Refresh the Page to see the Section appear in the top navigation.</li>
+        <li>Go to the Settings page and Select the implementation you wish to connect to and you API Username and Password</li>
+        <li>Return to the Dashboard and see your Account Statistics</li>
+      </ul>
+
+      <h2>Connected Services</h2>
+      <ul>
+        <li>Wired+</li>
+      </ul>
+
+      <p>Licensed under MIT License</p>]]>
+    </readme>
+  </info>
+
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+
+  <Actions>
+  </Actions>
+
+  <control />
+
+  <files>
+    <folder path="./bin/Release/App_Plugins/" orgPath="App_Plugins" />
+    <file path="./bin/Release/Campaignr.Core.dll" orgPath="bin/Campaignr.Core.dll" />
+  </files>
+
+</umbPackage>

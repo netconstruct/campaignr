@@ -1,0 +1,137 @@
+﻿/* Active */
+.camman-admin i.umb-table-body__icon.active::before {
+    color: #41D797;
+}
+
+
+/* Draft */
+.camman-admin .draft i.umb-table-body__icon::before {
+    color: #A78B62;
+}
+
+.camman-admin .draft button.btn {
+    background-color: #A78B62;
+    color: #FFF;
+}
+
+    .camman-admin .draft button.btn:hover {
+        background-color: #CAB9A0;
+        color: #FFF;
+    }
+
+.camman-admin .draft.status {
+    color: #A78B62;
+}
+
+
+/* Scheduled */
+.camman-admin .scheduled i.umb-table-body__icon::before {
+    color: #A78B62;
+}
+
+.camman-admin .scheduled button.btn {
+    background-color: #A78B62;
+    color: #FFF;
+}
+
+    .camman-admin .scheduled button.btn:hover {
+        background-color: #CAB9A0;
+        color: #FFF;
+    }
+
+.camman-admin .scheduled.status {
+    color: #A78B62;
+}
+
+
+/* Sent */
+.camman-admin .sent i.umb-table-body__icon::before {
+    color: #1B264F;
+}
+
+.camman-admin .sent button.btn {
+    background-color: #1B264F;
+    color: #FFF;
+}
+
+    .camman-admin .sent button.btn:hover {
+        background-color: #4A63C1;
+        color: #FFF;
+    }
+
+.camman-admin .sent.status {
+    color: #1B264F;
+}
+
+
+/* Cancelled */
+.camman-admin .cancelled i.umb-table-body__icon::before {
+    color: #817f85;
+}
+
+.camman-admin .cancelled button.btn {
+    background-color: #817f85;
+    color: #FFF;
+}
+
+    .camman-admin .cancelled button.btn:hover {
+        background-color: #b3b2b5;
+        color: #FFF;
+    }
+
+.camman-admin .cancelled.status {
+    color: #817f85;
+}
+
+/* Failed */
+.camman-admin .failed i.umb-table-body__icon::before {
+    color: #817f85;
+}
+
+.camman-admin .failed button.btn {
+    background-color: #817f85;
+    color: #FFF;
+}
+
+    .camman-admin .failed button.btn:hover {
+        background-color: #b3b2b5;
+        color: #FFF;
+    }
+
+.camman-admin .failed.status {
+    color: #817f85;
+}
+
+
+/* Contacts Dashboard */
+.contacts-icon-container{
+    position: relative;
+}
+    .contacts-icon-container i {
+        font-size: 130px;
+        position: absolute;
+        margin: auto;
+        line-height: 130px;
+        color: #1B264F;
+    }
+
+/* Unsubscribed */
+.camman-admin .unsubscribed i.umb-table-body__icon::before {
+    color: #817f85;
+}
+
+.camman-admin .unsubscribed button.btn,
+.camman-admin button.btn.unsubscribed {
+    background-color: #817f85;
+    color: #FFF;
+}
+
+    .camman-admin .unsubscribed button.btn:hover,
+    .camman-admin button.btn.unsubscribed:hover {
+        background-color: #b3b2b5;
+        color: #FFF;
+    }
+
+.camman-admin .unsubscribed.status {
+    color: #817f85;
+}
