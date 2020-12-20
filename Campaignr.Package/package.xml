@@ -6,9 +6,9 @@
       <version>1.0.0</version>
       <license url="https://opensource.org/licenses/MIT">MIT License 2.0</license>
       <url>https://github.com/netconstruct/campaignr</url>
-      <iconUrl>https://www.netconstruct.com/icons/icon-144x144.png</iconUrl>
+      <iconUrl>https://raw.githubusercontent.com/netconstruct/campaignr/master/CampaignrLogo.png<</iconUrl>
       <requirements type="Strict">
-        <major>1</major>
+        <major>8</major>
         <minor>0</minor>
         <patch>0</patch>
       </requirements>
