@@ -236,3 +236,6 @@ Campaignr.Web/SiteFiles/src/img/Assets/
 
 # Ignore the Models Builder models out of date flag
 **/App_Data/Models/ood.flag
+Campaignr.Web/umbraco/
+
+Campaignr.Web/Config/splashes/
